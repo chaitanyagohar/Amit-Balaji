@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color: #0f0d0d;
+}
+
+#pg1{
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+}
+nav{
+    padding:0 3vw;
+    height: 8vh;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h4{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: ubuntu;
+}
+nav .nav-links{
+    display: flex;
+    gap: 3vw;
+}
+.nav-links a{
+    text-decoration: none;
+}
+nav #circle{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(252, 235, 235);
+    border-radius: 50%;
+}
+.nav-links a:nth-child(1){
+    border-bottom: 2px solid white;
+}
+#pg1 h1{
+    font-size: 7vw;
+    font-weight:500;
+    font-family: ubuntu;
+    margin-top: 12vw;
+    margin-left: 6vw;
+}
+#pg1 h2{
+    font-size: 7vw;
+    font-weight:500;
+    font-family: ubuntu;
+    margin-left: 26vw;
+}
+#pg1 video{
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin-top: 10vw;
+}
+
+#pg2 {
+    min-height: 150vh;
+    width: 100%;
+    background-color: rgb(255, 244, 244);
+}
+#pg2 h1{
+    font-size: 7vw;
+    font-family: ubuntu;
+    color: rgb(0, 0, 0);
+
+}
+#pg2content{
+    height: 60vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#pg2l{
+    font-size: 7vw;
+    font-family: ubuntu;
+    color: rgb(0, 0, 0);
+}
